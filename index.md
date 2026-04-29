@@ -4,22 +4,31 @@ layout: home
 
 hero:
   name: "DeepslateMC"
-  text: "DeepslateMC Server Software"
-  tagline: My great project tagline
+  text: "Minecraft Server Software"
+  tagline: A Leaf fork that adds neat functionalities
+  image:
+    src: /img/logo.webp
+    alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Download
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Docs
       link: /api-examples
+    - theme: alt
+      text: Translations
+      link: /api-examples
+    - theme: alt
+      text: Statistics
+      link: https://bstats.org/plugin/server-implementation/DeepslateMC
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Added features
+    details: New features directly in the server software to replace everyday plugins
+  - title: Fully customizable
+    details: You can configure all features to your desire including the messages
+  - title: Free and open source
+    details: Try DeepslateMC for free and check out the source code on GitHub
 ---
 
