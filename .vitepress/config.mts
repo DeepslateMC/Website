@@ -55,7 +55,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/DeepslateMC' },
-      { icon: 'discord', link: 'https://discord.gg/BGrhNnVczp' }
+      { icon: 'discord', link: 'https://deepslatemc.de/dc' }
     ]
   }
 })
