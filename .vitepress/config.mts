@@ -4,20 +4,51 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "DeepslateMC",
   description: "DeepslateMC Server Software",
+  cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', href: '/img/logo.webp' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/markdown-examples' },
-      { text: 'Translations', link: '/markdown-examples' }
+      { text: 'Download', link: '/download' },
+      { text: 'Docs', link: '/docs' }
     ],
 
     sidebar: [
       {
+        text: 'General',
+        items: [
+          { text: 'Home', link: '/' },
+          { text: 'Download', link: '/download' },
+          { text: 'Translations', link: '/translations' }
+        ]
+      },
+      {
         text: 'Docs',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Welcome', link: '/docs/' },
+          { text: 'Features', link: '/docs/features' },
+          {
+            text: 'Commands and Permissions',
+            link: '/docs/commands_and_permissions/',
+            collapsed: false,
+            items: [
+              { text: 'Commands', link: '/docs/commands_and_permissions/commands' },
+              { text: 'Permissions', link: '/docs/commands_and_permissions/permissions' }
+            ]
+          },
+          {
+            text: 'Files',
+            link: '/docs/files/',
+            collapsed: false,
+            items: [
+              { text: 'Configuration', link: '/docs/files/config' },
+              { text: 'Messages', link: '/docs/files/messages' }
+            ]
+          },
+          { text: 'Managing commands', link: '/docs/managing-commands' }
         ]
       }
     ],
