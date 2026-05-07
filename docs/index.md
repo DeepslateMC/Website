@@ -1,9 +1,15 @@
-# Welcome to the DeepslateMC wiki!
+# Welcome to the DeepslateMC documentation!
 
-## Subpages
-Here you can read everything about the following things by clicking on them:
+This page serves as the central source of information about managing your **DeepslateMC** server.
+<br>
+If you need further assitance you can join our [Discord server](https://deepslatemc.de/dc).
 
-- [Commands and permissions](/docs/commands_and_permissions/)
-- [Config options](/docs/files/config)
-- [Messages file](/docs/files/messages)
-- [Managing Commands](/docs/managing-commands)
+## Chapters
+A quick overview of the most important subpages available in this documentation:
+
+- [Features](/docs/features) - A short explanation of all features available
+- [Commands](/docs/commands_and_permissions/commands) - A list of all commands available in DeepslateMC
+- [Permissions](/docs/commands_and_permissions/commands) - An explanation of all permissions added by DeepslateMC
+- [Config options](/docs/files/config) - A detailed documentation for all options in the `deepslate.yml` fie
+- [Messages file](/docs/files/messages) - Information about the `messages.yml` file
+- [Managing Commands](/docs/managing-commands) - A short guide on the `commands.yml` file and how you can use it to customize your commands
