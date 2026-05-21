@@ -12,4 +12,4 @@ A quick overview of the most important subpages available in this documentation:
 - [Permissions](/docs/commands_and_permissions/permissions) - An explanation of all permissions added by DeepslateMC
 - [Config options](/docs/files/config) - A detailed documentation for all options in the `deepslate.yml` file
 - [Messages file](/docs/files/messages) - Information about the `messages.yml` file
-- [Managing Commands](/docs/managing-commands) - A short guide on the `commands.yml` file and how you can use it to customize your commands
+- [Managing Commands](/docs/commands_and_permissions/managing-commands) - A short guide on the `commands.yml` file and how you can use it to customize your commands

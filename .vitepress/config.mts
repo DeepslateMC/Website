@@ -36,7 +36,8 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Commands', link: '/docs/commands_and_permissions/commands' },
-              { text: 'Permissions', link: '/docs/commands_and_permissions/permissions' }
+              { text: 'Permissions', link: '/docs/commands_and_permissions/permissions' },
+              { text: 'Managing commands', link: '/docs/commands_and_permissions/managing-commands' }
             ]
           },
           {
@@ -47,8 +48,7 @@ export default defineConfig({
               { text: 'Configuration', link: '/docs/files/config' },
               { text: 'Messages', link: '/docs/files/messages' }
             ]
-          },
-          { text: 'Managing commands', link: '/docs/managing-commands' }
+          }
         ]
       }
     ],
