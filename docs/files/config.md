@@ -5,7 +5,7 @@ In it you can enable or disable the following features and control their behavio
 
 Click on the options or categories to view additional information
 
-<div style="background-color: var(--vp-c-bg-alt); padding: 24px; border-radius: 12px; margin-top: 24px; box-shadow: inset 0 2px 8px rgba(0,0,0,0.15);">
+<div style="background-color: var(--vp-c-bg-alt); padding: 20px; border-radius: 12px; margin-top: 20px;">
 
 <ConfigProperty name="discordLink" value="https://discord.gg/BGrhNnVczp" type="string">
 Sets the link used by the <code>/dc</code> and <code>/discord</code> command.
