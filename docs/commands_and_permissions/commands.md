@@ -28,8 +28,6 @@
 ## Spawn
 `/spawn` - Teleports the player to the spawn
 
-`/lobby` - Alias for /spawn
-
 `/setspawn` - Sets the spawn
 
 ## Unbreakable

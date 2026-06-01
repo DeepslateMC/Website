@@ -1,5 +1,13 @@
 # Managing Commands
-_This explanation is based on [this page](https://bukkit.fandom.com/wiki/Commands.yml) and will show how to manage commands using the servers commands.yml file._
+This explanation is based on [this page](https://bukkit.fandom.com/wiki/Commands.yml) and will show how to manage commands using the servers commands.yml file.
+
+::: tip
+Never include the leading slash (`/`) when defining commands or aliases in the `commands.yml` file.
+:::
+
+::: info
+Make sure to restart your server after you made your changes in the `commands.yml` file.
+:::
 
 ## Removing a command
 If you want to remove a command added by DeepslateMC you can add the following into your `commands.yml` file:
@@ -10,11 +18,11 @@ aliases:
   - []
 ```
 
-Example: If you want to remove the `/autosmelt` command you use:
+Example: If you want to remove the `/unbreakable` command you use:
 
 ```yml
 aliases:
-  autosmelt:
+  unbreakable:
   - []
 ```
 
@@ -27,11 +35,11 @@ aliases:
   - "COMMAND"
 ```
 
-Example: If you want to use the command `/hub` to get to the lobby/spawn besides the `/spawn` and `/lobby` commands you use:
+Example: If you want to use the command `/lobby` to get to the spawn besides the `/spawn` command you use:
 
 ```yml
 aliases:
-  hub:
+  lobby:
   - "spawn"
 ```
 
@@ -44,7 +52,7 @@ aliases:
   - "PLUGIN_NAME:COMMAND"
 ```
 
-Example: If you have a custom clearchat plugin called ChatPlugin and dont want to use the clearchat command from DeepslateMC you use:
+Example: If you have a custom clearchat plugin called `ChatPlugin` and dont want to use the `/clearchat` command from DeepslateMC you use:
 
 ```yml
 aliases:
