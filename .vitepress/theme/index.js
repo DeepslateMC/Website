@@ -11,6 +11,7 @@ import OtherPermRow from '../components/table/OtherPermRow.vue'
 
 import CardGrid from '../components/card/CardGrid.vue'
 import DocCard from '../components/card/DocCard.vue'
+import FeatureCard from '../components/card/FeatureCard.vue'
 
 export default {
     extends: DefaultTheme,
@@ -26,5 +27,6 @@ export default {
 
         app.component('CardGrid', CardGrid)
         app.component('DocCard', DocCard)
+        app.component('FeatureCard', FeatureCard)
     }
 }
