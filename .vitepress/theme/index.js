@@ -9,6 +9,9 @@ import CommandRow from '../components/table/CommandRow.vue'
 import PermCommandRow from '../components/table/PermCommandRow.vue'
 import OtherPermRow from '../components/table/OtherPermRow.vue'
 
+import CardGrid from '../components/card/CardGrid.vue'
+import DocCard from '../components/card/DocCard.vue'
+
 export default {
     extends: DefaultTheme,
 
@@ -20,5 +23,8 @@ export default {
         app.component('CommandRow', CommandRow)
         app.component('PermCommandRow', PermCommandRow)
         app.component('OtherPermRow', OtherPermRow)
+
+        app.component('CardGrid', CardGrid)
+        app.component('DocCard', DocCard)
     }
 }
