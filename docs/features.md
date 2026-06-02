@@ -17,32 +17,32 @@ Define your `MOTD` in the `server.properties` file using the MiniMessage format 
 <gradient:blue:red><b>This is a bold gradient</b></gradient>
 ```
 
-<img src="/img/mini_motd.png" alt="MiniMessage MOTD">
+<img src="/img/mini_motd.webp" alt="MiniMessage MOTD">
 </FeatureCard>
 
 <FeatureCard title="Debug Menu Brand" icon="🖥️">
 You can customize the server brand shown to players in the top left of their debug menu (<code>F3</code>).
-<img src="/img/debug_brand.png" alt="Debug Menu Brand">
+<img src="/img/debug_brand.webp" alt="Debug Menu Brand">
 </FeatureCard>
 
 <FeatureCard title="Tablist Decoration" icon="📋">
 Decorate the tablist by adding your own custom <code>header</code> and <code>footer</code>, or completely disable the player tablist entirely.
-<img src="/img/empty_tablist.png" alt="Empty Tablist">
+<img src="/img/empty_tablist.webp" alt="Empty Tablist">
 </FeatureCard>
 
 <FeatureCard title="Playerlist Hover" icon="🖱️">
 Add a custom text that will be shown to users when hovering over the player count in their multiplayer server list.
-<img src="/img/playerlist_hover.png" alt="Playerlist Hover">
+<img src="/img/playerlist_hover.webp" alt="Playerlist Hover">
 </FeatureCard>
 
 <FeatureCard title="Custom Bossbar" icon="⚔️">
 Add a persistent, custom bossbar that will be displayed to all your players.
-<img src="/img/bossbar.png" alt="Bossbar">
+<img src="/img/bossbar.webp" alt="Bossbar">
 </FeatureCard>
 
 <FeatureCard title="Actionbar Message" icon="💬">
 Display a continuous, custom actionbar message directly above your players' inventories.
-<img src="/img/actionbar.png" alt="Actionbar">
+<img src="/img/actionbar.webp" alt="Actionbar">
 </FeatureCard>
 
 <FeatureCard title="Server Links Menu" icon="🔗">
@@ -103,7 +103,7 @@ You are able to completely deactivate the vanilla <code>/op</code> command for s
 
 <FeatureCard title="Spectator Visibility" icon="👻">
 Optionally disable the transparent style of spectators in the tablist to make them appear as normal players instead of this:
-<img src="/img/spectator.png" alt="Spectator Mode Player">
+<img src="/img/spectator.webp" alt="Spectator Mode Player">
 </FeatureCard>
 
 <FeatureCard title="Knowledge Book Clicks" icon="📖">

@@ -31,7 +31,7 @@ const copyToClipboard = async (text) => {
       copiedItem.value = null
     }, 2000)
   } catch (err) {
-    console.error('Fehler beim Kopieren: ', err)
+    console.error('Error copying to clipboard: ', err)
   }
 }
 </script>
@@ -48,7 +48,7 @@ const copyToClipboard = async (text) => {
           class="badge cmd-badge clickable"
           :class="{ 'is-copied': copiedItem === cmd }"
           @click="copyToClipboard(cmd)"
-          title="Klicken zum Kopieren"
+          title="Click to copy"
         >
           {{ cmd }}
         </span>
@@ -64,7 +64,7 @@ const copyToClipboard = async (text) => {
           class="badge alias-badge clickable"
           :class="{ 'is-copied': copiedItem === alias }"
           @click="copyToClipboard(alias)"
-          title="Klicken zum Kopieren"
+          title="Click to copy"
         >
           {{ alias }}
         </span>
@@ -175,7 +175,7 @@ const copyToClipboard = async (text) => {
 }
 
 .badge.is-copied::after {
-  content: 'Kopiert!';
+  content: 'Copied!';
   position: absolute;
   bottom: 120%;
   left: 50%;
