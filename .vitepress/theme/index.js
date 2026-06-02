@@ -3,8 +3,11 @@ import './style.css'
 
 import ConfigGroup from '../components/config/ConfigGroup.vue'
 import ConfigProperty from '../components/config/ConfigProperty.vue'
-import CommandTable from '../components/table/CommandTable.vue'
+
+import BaseTable from '../components/table/BaseTable.vue'
 import CommandRow from '../components/table/CommandRow.vue'
+import PermCommandRow from '../components/table/PermCommandRow.vue'
+import OtherPermRow from '../components/table/OtherPermRow.vue'
 
 export default {
     extends: DefaultTheme,
@@ -12,7 +15,10 @@ export default {
     enhanceApp({ app }) {
         app.component('ConfigGroup', ConfigGroup)
         app.component('ConfigProperty', ConfigProperty)
-        app.component('CommandTable', CommandTable)
+
+        app.component('BaseTable', BaseTable)
         app.component('CommandRow', CommandRow)
+        app.component('PermCommandRow', PermCommandRow)
+        app.component('OtherPermRow', OtherPermRow)
     }
 }

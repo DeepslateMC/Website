@@ -10,7 +10,7 @@ Please note that most commands require specific permissions. To see which permis
 You can easily enable, disable, or rename any command to fit your server's needs. Check out the guide on [Managing Commands](/docs/commands_and_permissions/managing-commands) to learn how to tailor the command system to your liking.
 :::
 
-<CommandTable>
+<BaseTable :columns="['Command', 'Aliases', 'Description']" grid="1.5fr 1fr 3fr">
 
 <CommandRow commands="/deepslate">
 The main administrative command for DeepslateMC. It takes one of the following arguments:
@@ -57,4 +57,4 @@ Teleports the player to the configured server spawn.
 Modifies the item currently held in your main hand to be unbreakable.
 </CommandRow>
 
-</CommandTable>
+</BaseTable>
