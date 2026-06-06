@@ -9,7 +9,7 @@ next: false
 Here you can download translated messages for your `messages.yml` file found inside the `deepslate` folder. You can learn more about the messages file [here](/docs/files/messages)
 
 <script setup>
-import BaseDownloadWidget from './components/BaseDownloadWidget.vue'
+import BaseDownloadWidget from './.vitepress/components/BaseDownloadWidget.vue'
 
 const baseUrl = 'https://deepslatemc.de/'
 
