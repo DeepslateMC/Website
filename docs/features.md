@@ -26,7 +26,12 @@ You can customize the server brand shown to players in the top left of their deb
 </FeatureCard>
 
 <FeatureCard title="Tablist Decoration" icon="📋">
-Decorate the tablist by adding your own custom <code>header</code> and <code>footer</code>, or completely disable the player tablist entirely.
+Decorate the tablist by adding your own custom <code>header</code> and <code>footer</code>
+<img src="/img/tablist.webp" alt="Empty Tablist">
+</FeatureCard>
+
+<FeatureCard title="Removing players from tablist" icon="📋">
+You can completely remove all players from the tablist, including yourself. This essentially disables the tablist, except for your <code>header</code> and <code>footer</code>:
 <img src="/img/empty_tablist.webp" alt="Empty Tablist">
 </FeatureCard>
 
