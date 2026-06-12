@@ -11,7 +11,7 @@ Select the desired version from the dropdown menu to download the server files.
 <script setup>
 import BaseDownloadWidget from './.vitepress/components/BaseDownloadWidget.vue'
 
-const baseUrl = 'https://pascalpex.de/'
+const baseUrl = 'https://deepslatemc.de/'
 
 const versions = [
   // Preview
