@@ -15,7 +15,9 @@ const baseUrl = 'https://deepslatemc.de/'
 
 const versions = [
   // Preview
-  { id: '26.1.2', name: '26.1.2', statusId: 'preview' },
+  { id: '26.2', name: '26.2', statusId: 'preview' },
+  // EOL
+  { id: '26.1.2', name: '26.1.2', statusId: 'eol' },
   // Stable
   { id: '1.21.11', name: '1.21.11', statusId: 'stable' },
   // EOL
