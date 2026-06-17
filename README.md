@@ -16,6 +16,6 @@ pnpm run docs:dev
 ## 🔗 Important Links
 🌐 Live Website: https://deepslatemc.de
 
-💻 Main Server Software: [Pascalpex/Deepslate](https://github.com/Pascalpex/DeepslateMC)
+💻 Main Server Software: [DeepslateMC/DeepslateMC](https://github.com/DeepslateMC/DeepslateMC)
 
 💬 Discord Support: [Join our Community](https://deepslatemc.de/dc)
