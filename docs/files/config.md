@@ -135,7 +135,7 @@ If this is set to <code>true</code>, standard vanilla behavior applies.
 Minecraft 1.21 introduced built-in "Server Links" in the game pause menu (ESC). You can define a list of helpful links for your community here.
 </template>
 
-<ConfigProperty name="<gold>Website" value="'https://pascalpex.de'" type="string">
+<ConfigProperty name="<gold>Website" value="'https://deepslatemc.de'" type="string">
 You can add as many links as you want by adding new key-value pairs. <br>
 The key (left side) is the display name shown to the player and supports MiniMessage formatting (like <code>&lt;gold&gt;</code>). The value (right side) is the actual URL.
 </ConfigProperty>
