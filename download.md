@@ -15,12 +15,12 @@ const baseUrl = 'https://deepslatemc.de/'
 
 const versions = [
   // Preview
-  { id: '26.2', name: '26.2', statusId: 'preview' },
+  { id: '26.3', name: '26.3', statusId: 'preview' },
+  // Stable
+  { id: '26.2', name: '26.2', statusId: 'stable' },
   // EOL
   { id: '26.1.2', name: '26.1.2', statusId: 'eol' },
-  // Stable
-  { id: '1.21.11', name: '1.21.11', statusId: 'stable' },
-  // EOL
+  { id: '1.21.11', name: '1.21.11', statusId: 'eol' },
   { id: '1.21.10', name: '1.21.10', statusId: 'eol' },
   { id: '1.21.8', name: '1.21.8', statusId: 'eol' },
   { id: '1.21.7', name: '1.21.7', statusId: 'eol' },
@@ -68,7 +68,7 @@ const downloadConfig = {
 
 <BaseDownloadWidget 
   :items="versions" 
-  default-id="1.21.11"
+  default-id="26.2"
   label="Select version:"
   :status-config="downloadConfig"
 />
